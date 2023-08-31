@@ -1,0 +1,198 @@
+/* ************ layout start ************* */
+@media (min-width: 1200px) {
+    .pt-xl-6,
+    .py-xl-6 {
+      padding-top: 5rem !important;
+    }
+
+    .pr-xl-6,
+    .px-xl-6 {
+      padding-right: 5rem !important;
+    }
+
+    .pb-xl-6,
+    .py-xl-6 {
+      padding-bottom: 5rem !important;
+    }
+
+    .pl-xl-6,
+    .px-xl-6 {
+      padding-left: 5rem !important;
+    }
+}
+
+/* ************ layout end ************* */
+
+/* ************ fonts start ************* */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600; 
+  line-height: 3.125rem;
+  color: #050931;
+
+}
+h2{
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 2.8125rem;
+  color: #050931;
+}
+h3{
+  color: #131848;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.25rem; /* 100% */
+
+}
+p{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  color: #8F91A1;
+
+}
+
+/* ************ fonts end ************* */
+
+/* ************ Navbar start ************* */
+
+.navbar {
+  background-color: #ECF1F4 !important;
+}
+.navbar .nav-item .nav-link {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #636972;
+  
+  transition: all 0.5s ease-in-out;
+}
+.navbar .nav-item .nav-link:hover {
+  color: #55BC7E;
+}
+.navbar-nav .nav-link {
+  margin-right: 1.25rem;
+  margin-left: 1.25rem;
+  margin-top: 0.5rem;
+}
+.nav-btn {
+  width: 8rem;
+  height: 3rem;
+  background-color: #55BC7E;
+  border-radius:0.25rem;
+  color: #FFFFFF;
+  transition: all 0.5s ease-in-out;;
+}
+.nav-btn:hover {
+  background-color: #408D5F;
+}
+
+/* ************ Navbar end ************* */
+
+/* ************ Hero section start ************* */
+
+.hero {
+    
+    background-color: #ECF1F4;
+   
+}
+.hero span {
+  background-color: #D3E8E1;
+  display: inline-block;
+  padding: 0.438rem 1.25rem;
+  border-radius: 1.313rem;
+  color: #4E6570;
+  font-size: 0.7rem;
+  font-weight: 500;
+
+}
+.hero .form-control {
+  width: 17rem;
+  height: 3rem;
+  border-radius: 0.25rem;
+  font-size: 0.8rem;
+  
+}
+::placeholder {
+  color: #CED3D9 !important;
+  font-weight: 200;
+}
+.hero .form-btn:hover {
+  background-color: #408D5F;
+}
+.hero .form-shadow {
+  box-shadow: 0px 10px 25px 0px rgba(70,85,103,0.08);
+  
+}
+.form-btn {
+  width: 8rem;
+  height: 3rem;
+  background-color: #55BC7E;
+  border-radius:0.25rem;
+  color: #FFFFFF;
+  transition: all 0.5s ease-in-out;}
+/* ************ Hero section end ************* */
+
+/* ************ about start ************* */
+
+.about-box {
+    text-align: center;
+}
+.about h3 {
+  margin-top: 2rem;
+}
+.about p {
+  margin-top: 1rem;
+}
+
+/* ************ about end ************* */
+
+/* ************ Article On strategic section start ************* */
+
+.on-strategic {
+    
+    background-color: #ECF1F4;
+   
+}
+.more-btn {
+  text-decoration: none;
+  color: #373B61;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+}
+.more-btn:hover{
+  color: #5AC083;
+}
+
+/* ************ Article On strategic section end ************* */
+
+/* ************ Subscribe start ************* */
+.subscribe {
+  text-align: center;
+  background-color: #344763;
+  
+}
+.subscribe h2 {
+  color: #FFFFFF;
+}
+.subscribe p {
+  color: #EAEBF5;
+}
+
+/* ************ Subscribe end ************* */
+
+/* ************ Footer start ************* */
+footer {
+  background-color: #344763;
+  margin: 0rem;
+}
+footer p {
+  margin-bottom: 0rem;
+}
+/* ************ Subscribe end ************* */
