@@ -187,6 +187,24 @@ p{
 
 /* ************ Subscribe end ************* */
 
+/* ************ Our services start ************* */
+.services {
+  background-color: #ECF1F4;
+}
+.services-bg {
+  background-color: white;
+}
+.services img {
+  padding-top: 1.8rem;
+}
+.services h3 {
+  padding-top: 1.8rem;
+}
+.services p {
+  padding-bottom: 2.4rem;
+}
+/* ************ Our services end ************* */
+
 /* ************ Footer start ************* */
 footer {
   background-color: #344763;
