@@ -23,6 +23,20 @@
 
 /* ************ layout end ************* */
 
+/* ************ button start ************* */
+.green-btn {
+  width: 8rem;
+  height: 3rem;
+  background-color: #55BC7E;
+  border-radius:0.25rem;
+  color: #FFFFFF;
+  transition: all 0.5s ease-in-out;}
+
+  .green-btn:hover {
+    background-color: #408D5F;
+  }
+  /* ************ button end ************* */
+
 /* ************ fonts start ************* */
 
 body {
@@ -49,6 +63,9 @@ h3{
   font-weight: 500;
   line-height: 1.25rem; /* 100% */
 
+}
+h6 {
+  color:#55BC7E;
 }
 p{
   font-size: 1rem;
@@ -122,20 +139,12 @@ p{
   color: #CED3D9 !important;
   font-weight: 200;
 }
-.hero .form-btn:hover {
-  background-color: #408D5F;
-}
-.hero .form-shadow {
+
+.form-shadow {
   box-shadow: 0px 10px 25px 0px rgba(70,85,103,0.08);
   
 }
-.form-btn {
-  width: 8rem;
-  height: 3rem;
-  background-color: #55BC7E;
-  border-radius:0.25rem;
-  color: #FFFFFF;
-  transition: all 0.5s ease-in-out;}
+
 /* ************ Hero section end ************* */
 
 /* ************ about start ************* */
@@ -174,7 +183,7 @@ p{
 
 /* ************ Subscribe start ************* */
 .subscribe {
-  text-align: center;
+  
   background-color: #344763;
   
 }
@@ -204,6 +213,28 @@ p{
   padding-bottom: 2.4rem;
 }
 /* ************ Our services end ************* */
+
+/* ************ Pricing start ************* */
+.plan h1 {
+  padding: 1rem 0rem;
+
+}
+.plan hr {
+  padding: 1rem 0rem;
+}
+.plan-btn {
+  padding: 1rem 0rem;
+}
+.pricing p {
+  color: black;
+}
+/* ************ Pricing end ************* */
+
+/* ************ Love from clients start ************* */
+.love {
+  background-color: #ECF1F469;
+}
+/* ************ Love from clients end ************* */
 
 /* ************ Footer start ************* */
 footer {
